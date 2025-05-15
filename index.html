@@ -432,6 +432,13 @@
       </section>
     </section>
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module">
+       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+      createChat({
+        webhookUrl: 'https://playground.naratel.net.id/webhook/bb279b80-4558-486f-9837-b6511edd129d/chat , '
+      });
+
+      </script>
   </body>
 </html>
